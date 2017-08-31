@@ -1,6 +1,6 @@
 SBU = 15
 while SBU == 15:
-    Roll=input("Type 'roll' and hit enter if you would like to roll a die or 'stop' if you would like to stop. ")
+    Roll=input("Type 'roll' and hit enter if you would like to roll dice or 'stop' if you would like to stop. ")
     if Roll=="roll":
         import random
         x=random.randint(1,6)
